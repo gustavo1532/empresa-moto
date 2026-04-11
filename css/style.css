@@ -5,9 +5,15 @@
 }
 
 :root {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #111;
-  background: #f6f6f6;
+  --cor-fundo: #0f1115;
+  --cor-fundo-secundario: #171a21;
+  --cor-primaria: #e63946;
+  --cor-primaria-escura: #c1121f;
+  --cor-texto: #ffffff;
+  --cor-texto-suave: #c7cbd1;
+  --cor-card: #1c212b;
+  --cor-borda: #2a3140;
+  --sombra: 0 10px 30px rgba(0, 0, 0, 0.25);
 }
 
 html {
@@ -18,6 +24,20 @@ body {
   min-height: 100vh;
 }
 
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: var(--cor-fundo);
+  color: var(--cor-texto);
+}
+
+body {
+  background: var(--cor-fundo);
+  color: var(--cor-texto);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .container {
   width: min(1120px, calc(100% - 40px));
   margin: 0 auto;
@@ -46,8 +66,9 @@ body {
 }
 
 .logo span {
-  color: #e63946;
+  color: #bb0312;
 }
+
 
 .menu {
   display: flex;
@@ -119,7 +140,7 @@ body {
 .titulo-secao {
   font-size: 2rem;
   margin-bottom: 24px;
-  color: #111;
+  color: #861111;
 }
 
 .descricao {
@@ -282,3 +303,22 @@ body {
 main {
   flex: 1;
 }
+
+.topo {
+  background: var(--cor-fundo-secundario);
+}
+
+.card {
+  background: var(--cor-card);
+  color: var(--cor-texto);
+  border: 1px solid var(--cor-borda);
+}
+
+p {
+  color: var(--cor-texto-suave);
+}
+
+a {
+  color: var(--cor-texto);
+}
+
