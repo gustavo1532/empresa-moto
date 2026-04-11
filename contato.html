@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MotoPrime Oficina | Contato</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topo">
+    <div class="container nav-container">
+      <h1 class="logo">Moto<span>Prime</span></h1>
+      <button class="menu-toggle" id="menu-toggle">☰</button>
+      <nav>
+        <ul class="menu" id="menu">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="novidades.html">Novidades</a></li>
+          <li><a href="contato.html" class="ativo">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="secao pagina-interna">
+    <div class="container">
+      <h2 class="titulo-secao">Entre em contato</h2>
+      <div class="grid-2 contato-grid">
+        <div class="card">
+          <h3>Informações da empresa</h3>
+          <p><strong>Endereço:</strong> Rua das Motocicletas, 150 - Rio de Janeiro, RJ</p>
+          <p><strong>Telefone:</strong> (21) 98224-6189</p>
+          <p><strong>E-mail:</strong> contato@motoprime.com</p>
+          <p><strong>Instagram:</strong> @motoprimeoficina</p>
+          <p><strong>WhatsApp:</strong> (21) 98224-6189</p>
+        </div>
+
+        <form class="formulario card" id="form-contato">
+          <h3>Envie sua mensagem</h3>
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" placeholder="Digite seu nome" required>
+
+          <label for="email">E-mail</label>
+          <input type="email" id="email" placeholder="Digite seu e-mail" required>
+
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" rows="6" placeholder="Digite sua mensagem" required></textarea>
+
+          <button type="submit" class="btn">Enviar mensagem</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <p>© 2026 MotoPrime Oficina - Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <button id="btnTopo" title="Voltar ao topo">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>
