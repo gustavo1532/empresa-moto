@@ -216,7 +216,7 @@ body {
   background: #111;
   color: #fff;
   text-align: center;
-  padding: 24px 0;
+  padding: 45px 0;
 }
 
 #btnTopo {
@@ -270,4 +270,15 @@ body {
   .menu.ativo-menu {
     display: flex;
   }
+}
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
 }
