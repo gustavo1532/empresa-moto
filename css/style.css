@@ -40,7 +40,7 @@ main {
   margin: 0 auto;
 }
 
-p, descricao {
+p {
   color: var(--cor-texto-suave);
 }
 
