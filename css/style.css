@@ -1,4 +1,4 @@
-﻿* {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -294,6 +294,44 @@ a {
 
 #btnTopo:hover {
   background: #c92432;
+}
+
+/* edição css na lista */
+
+.info-lista {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.info-lista a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #c7cbd1;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.info-lista a:hover {
+  color: #e63946;
+}
+
+.info-lista img {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  filter: invert(1);
+  filter: invert(29%) sepia(94%) saturate(1234%) hue-rotate(337deg) brightness(95%) contrast(92%);
+}
+
+/* edição css no formulário */
+
+.formulario label {
+  font-weight: 600;
+  color: #ffffff;
 }
 
 @media (max-width: 900px) {
